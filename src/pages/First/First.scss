@@ -1,0 +1,119 @@
+.magicCircle {
+  max-width: 900px;
+  width: 100%;
+}
+.cws-com-web-series-1 {
+  button {
+    margin-top: 5%;
+    margin-bottom: 0%;
+  }
+}
+.cws-com-web-series-1 > div:nth-child(1) {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cws-com-web-series-1 > div:nth-child(1) > div:nth-child(1) {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.title2 {
+  font-size: 50px;
+}
+.cws-com-web-series-1 > div:nth-child(1) > div:nth-child(3) {
+  display: flex;
+}
+.cws-timer {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  div {
+    display: flex;
+    justify-content: center;
+    width: 72px;
+    margin-inline: 5px;
+  }
+}
+
+.border-gradient {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgb(255 255 255 / 0%) 0%,
+    rgb(255 255 255) 54%,
+    rgb(255 255 255 / 0%) 100%
+  );
+  margin-inline: 10%;
+}
+@media only screen and (max-width: 460px) {
+  .title2 {
+    font-size: 45px;
+  }
+  .cws-timer {
+    div {
+      width: 50px;
+      padding: 5px;
+    }
+  }
+}
+// ----------------------------------- Page One ------------------------------------
+
+.min-h-400px {
+  min-height: 400px;
+}
+.cws-event-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin: 10px;
+    font-size: 45px;
+  }
+  p {
+    width: 50%;
+    text-align: justify;
+    margin: 20px;
+  }
+  button {
+    margin: 10px;
+  }
+}
+.w-170px {
+  width: 170px;
+}
+.h-60px {
+  height: 60px;
+}
+@media only screen and (max-width: 760px) {
+  .cws-event-container {
+    p {
+      width: 80%;
+    }
+  }
+}
+@media only screen and (max-width: 460px) {
+  .cws-event-container {
+    p {
+      width: 100%;
+    }
+  }
+}
+
+// --------------------------------------------------------------------------
+
+.sponsor {
+  background-color: rgba(222, 222, 222, 0.1);
+  width: 100%;
+  border-radius: 8px;
+}
+.h-120px {
+  height: 120px !important;
+}

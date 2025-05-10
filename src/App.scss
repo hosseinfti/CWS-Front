@@ -1,0 +1,201 @@
+
+@font-face {
+  font-family: "dana";
+  src: url(./assets/fonts/dana/Dana-Regular.ttf);
+
+}
+@font-face {
+  font-family: "danaTitr";
+  src: url(./assets/fonts/dana/Dana-Black.ttf);
+}
+
+body { 
+  font-family: "dana";
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+.eventIcon {
+  cursor: pointer;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.purple-bg-section {
+  background: linear-gradient(
+    254.66deg,
+    rgba(98, 47, 247, 0.14) 25.18%,
+    rgba(75, 32, 207, 0.14) 86.92%
+  );
+  max-height: 100vh;
+  overflow-x: auto;
+}
+.radio-item {
+  margin-bottom: 5px;
+}
+.w-50responsive {
+  width: 50%;
+}
+@media only screen and (max-width: 992px) {
+  .w-50responsive {
+    width: 100%;
+    
+  }
+}
+.mw-450px {
+  max-width: 450px !important;
+}
+.disabled {
+  cursor: not-allowed !important;
+  color: #646464 !important;
+}
+.notAllowed { 
+  cursor: not-allowed !important;
+}
+.persian {
+  direction: rtl;
+}
+.multiLangSelect {
+  outline: none;
+}
+.circleBlurRight {
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #1F1545;
+  border-radius: 50%;
+  box-shadow: 0px 0px 175px 175px #1f1545;
+}
+.circleBlurLeft {
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #1F1545;
+  border-radius: 50%;
+  box-shadow: 0px 0px 175px 175px #1f1545;
+}
+.ovalBlurleft {
+  position: absolute;
+  left: 88px;
+  z-index: -1;
+  width: 150px;
+  height: 550px;
+  transform: rotate(210deg);
+  background-color: #1F1545;
+  border-radius: 50%;
+  box-shadow: 0px 0px 175px 175px #1f1545;
+}
+@media only screen and (max-width: 860px) {
+  .circleBlurRight {    
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 150px 150px #1f1545;
+  }
+  .circleBlurLeft {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 150px 150px #1f1545;
+  }
+  .ovalBlurleft {    
+    position: absolute;
+    left: 0px;
+    width: 10px;
+    height: 100px;
+    box-shadow: 0px 0px 150px 150px #1f1545;
+  }
+}
+  @media only screen and (max-width: 460px) {
+    .circleBlurRight {    
+      width: 50px;
+      height: 50px;
+      box-shadow: 0px 0px 100px 100px #1f1545;
+    }
+    .circleBlurLeft {
+      width: 50px;
+      height: 50px;
+      box-shadow: 0px 0px 100px 100px #1f1545;
+    }
+    .ovalBlurleft {    
+      position: absolute;
+      left: 0px;
+      width: 10px;
+      height: 100px;
+      box-shadow: 0px 0px 100px 100px #1f1545;
+    }
+  }
+  @media only screen and (min-width: 770px) {
+    .slick-current, .slick-current+div+div {
+        filter: blur(1px) grayscale(1);
+        transform: scale(0.8);
+        transition: 0.3s;
+    }
+   .slick-slide:not(.slick-active)
+  //  ,.slick-current+div+div+div 
+  {
+        filter: blur(1px) grayscale(1);
+        transform: scale(0.8);
+        transition: 0.3s;
+    }
+    .slick-current+div {
+      transform: scale(1);
+        transition: 0.6s;
+    }
+}
+
+.card-text {
+  height: 200px;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.cwsJustify {
+  text-align: justify;
+}
+.titr {
+  font-family: "danaTitr" !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "danaTitr" !important;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 8  px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 8, 64); 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; 
+}
+.active-header {
+  color: #fff;
+}
+.border-bottom-grey {
+  border-bottom: 1px solid #272727;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.expired {
+  background: #1c1515 !important;
+  color: #604a4a !important;
+  border: none !important;
+}

@@ -1,0 +1,21 @@
+.cws-tab {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  height: 45px;
+  color: #888;
+  border-radius: 20px;
+  margin-inline: 5px;
+  &:hover {
+    color: #fff;
+  }
+}
+.activeYes {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+}
+.activeNo {
+  color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.02);
+}
+.tabContainer::-webkit-scrollbar {
+  display: none;
+}

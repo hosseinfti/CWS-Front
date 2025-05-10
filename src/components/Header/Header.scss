@@ -1,0 +1,43 @@
+.w-120px {
+  width: 120px;
+}
+.h-45px {
+  height: 45px;
+}
+.font-20px {
+  font-size: 20px;
+}
+.primary-button {
+  background: linear-gradient(254.66deg, #622ff7 25.18%, #4b20cf 86.92%);
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  &:hover {
+    color: #fff;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+.secondary-button {
+  background-color: transparent;
+  border: 2px solid #622ff7;
+  color: #fff;
+  border-radius: 15px;
+  &:hover {
+    color: #fff;
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}
+.cws-header {
+}
+@media only screen and (max-width: 576px) {
+  .logo {
+    width: 70px;
+  }
+}
+.activeHeader {
+  color: #fff !important;
+}

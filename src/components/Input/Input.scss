@@ -1,0 +1,50 @@
+.input-mw {
+  max-width: 460px;
+}
+.input-h {
+  height: 60px;
+}
+.input-rounded {
+  border-radius: 10px !important;
+}
+.cws-check {
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  margin-top: 0px;
+}
+.pass-icon-en {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  right: 5%;
+  width: 20px;
+}
+.pass-icon-fa {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 20px;
+}
+@media only screen and (max-width: 576px) {
+  .input-h {
+    height: 45px;
+  }
+  .input-rounded {
+    border-radius: 15px !important;
+  }
+  .cws-check {
+    width: 20px;
+    height: 20px;
+    padding: 0px;
+    margin-top: 0px;
+  }
+  .pass-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    width: 20px;
+  }
+}

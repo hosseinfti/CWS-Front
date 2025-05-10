@@ -1,0 +1,28 @@
+.slick-dots {
+  bottom: -50px;
+}
+.slick-dots li button:before {
+  color: #fff;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+.card-body {
+  padding: 0;
+}
+.card-text {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-top: 1px solid #aaa;
+  border-radius: 20px;
+  padding: 15px 10px 10px;
+}
+.card-body-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 270px;
+  border-radius: 20px 20px 0 0;
+}

@@ -1,0 +1,13 @@
+.submit-btn {
+  min-width: max-content;
+  height: 60px;
+  border-radius: 10px;
+  background: linear-gradient(254.66deg, #622ff7 25.18%, #4b20cf 86.92%);
+  border: none;
+}
+@media only screen and (max-width: 576px) {
+  .submit-btn {
+    height: 45px;
+    border-radius: 15px;
+  }
+}

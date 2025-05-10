@@ -1,0 +1,40 @@
+.h-100vh {
+  height: 100vh;
+}
+.w-265px {
+  width: 265px;
+}
+.w-200px {
+  width: 200px;
+}
+.h-68px {
+  height: 68px;
+}
+.w-110px {
+  width: 110px;
+}
+.sideMenuItem {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sideMenuItem:hover {
+  border: 1px solid #622ff7;
+}
+.active {
+  background: linear-gradient(254.66deg, #622ff7 25.18%, #4b20cf 86.92%) ;
+  color: #fff !important;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.sidebar-item:hover {
+  color: #fff;
+}
+.sidebar-data {
+  width: 250px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

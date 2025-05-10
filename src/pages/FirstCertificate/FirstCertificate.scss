@@ -1,0 +1,31 @@
+.certificateContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(171, 133, 133);
+    border-radius: 15px;        
+    width: 700px;
+    max-width: 100%; 
+    min-height: 600px;
+    max-height: 100%;
+    background-color: #232026;
+    padding: 40px 20px;
+
+}
+.midInput {
+    width: 14.5px;
+    height: 24px;
+}
+.fs-18px {
+    font-size: 18px;
+}
+.mw-270px { 
+    max-width: 270px;
+    min-width: 100%;
+}
+@media only screen and (max-width: 460px) {
+    .fs-18px {
+        font-size: 16px !important;
+    }  
+}

@@ -1,0 +1,15 @@
+export const ROUTE_ROOT = "/";
+export const ROUTE_FIRST = "1st";
+// export const ROUTE_CERTIFICATE_INQUIRY = "certificate-inquiry";
+export const ROUTE_SIGN_IN = "sign-in";
+// export const ROUTE_SIGN_UP = "sign-up";
+export const ROUTE_FORGET_PASSWORD = "forget-password";
+export const ROUTE_CHANGE_FORGOT_PASSWORD = "change-forgot-password";
+export const ROUTE_TIME_TABLE = "time-table";
+export const ROUTE_PROFILE = "profile";
+export const ROUTE_CHANGE_PASSWORD = "change-password";
+export const ROUTE_LECTURES = "lectures";
+export const ROUTE_FIRST_CERTIFICATE = "first_certificate";
+export const ROUTE_SECOND_CERTIFICATE = "second_certificate";
+export const ROUTE_COMPLETE_PROFILE = "complete-profile";
+export const ROUTE_FEEDBACK = "feedback";

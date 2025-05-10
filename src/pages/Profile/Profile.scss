@@ -1,0 +1,116 @@
+// .profileBody {
+//   height: 100%;
+//   width: 100%;
+//   background-color: #1a1233;
+// }
+.rounded-15px {
+  border-radius: 15px;
+}
+.opacity-10 {
+  opacity: 0.1;
+}
+.bg-glass{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.profileProgressEn {
+  width: 0;
+  transition: width 2s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  background: linear-gradient(254.66deg, #622ff7 25.18%, #4b20cf 86.92%);
+}
+.profileProgressFa {
+  width: 0;
+  transition: width 2s ease-in-out;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  background: linear-gradient(254.66deg, #622ff7 25.18%, #4b20cf 86.92%);
+}
+
+.openCloseBtns {
+  display: flex;
+  position: relative;
+  background: rgba(255, 255, 255, 0.34);
+  border-radius: 35px;
+  width: 100%;
+  max-width: 400px;
+  float: left;
+  margin-left: 5px;
+}
+.openCloseBtn {
+  font-family: "danaTitr";
+  font-size: large;
+  z-index: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 5px 25px;
+  width: 50%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.openCloseSelected {
+  width: 50%;
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: linear-gradient(254.66deg, #622FF7 25.18%, #4B20CF 86.92%);
+  // border: 1px solid #e1e1e1;
+  border-radius: 35px;
+  // box-shadow: 1px 1px 1px 0px #e1e1e1;
+}
+.openCloseDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.opening {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(0px);
+}
+.closing {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(-100%);
+}
+.openAndCloseDes {
+  text-align: justify;
+  margin-block: 20px;
+}
+@keyframes opening {
+  from {left: 1500px}
+  to {left: 0;}
+}
+.openingPoster {
+  animation-name: opening;
+  animation-duration: 0.2s;
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin-block: 20px;
+}
+
+@keyframes closing {
+  from {left: -1500px}
+  to {left: 0;}
+}
+
+.closingPoster {
+  animation-name: closing;
+  animation-duration: 0.2s;
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  margin-block: 20px;
+}
