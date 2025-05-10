@@ -4,8 +4,7 @@ import "./Input.scss";
 
 import eye_slash from "../../assets/images/icons/eye-slash.svg";
 import eye from "../../assets/images/icons/eye.svg";
-import translate from "../../i18n/translate";
-import { FormattedMessage, injectIntl } from "react-intl";
+import {  injectIntl } from "react-intl";
 import { CwsContext } from "../../App";
 
 const Input = (props) => {

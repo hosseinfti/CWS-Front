@@ -23,9 +23,13 @@ function ForgetPassword() {
     if (!err) {
       navigate("/change-forgot-password", { replace: true });
     } else {
-      err.response && err.response.data && err.response.data.message
-        ? toast.error(errorMapper[err.response.data.message].en)
-        : toast.error(errorMapper[err.message].en);
+      if(err.response?.data?.message && errorMapper?.[err?.response?.data?.message]?.en){
+        toast.error(translate(errorMapper[err.response.data.message].en))
+      } else if(err?.message && errorMapper?.[err?.message]?.en) {
+        toast.error(translate(errorMapper[err.message].en))
+      }else {
+        toast.error(translate(errorMapper["Unknown error"].en))
+      }
     }
   };
 

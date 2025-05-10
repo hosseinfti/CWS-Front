@@ -27,8 +27,14 @@ function SignIn({ intl }) {
           navigate("/profile", { replace: true });
         }
       } else if (err && !res) {
-        toast.error(translate(errorMapper[err.response.data.message].en)) ||
-          toast.error(translate(errorMapper[err.message].en));
+        if(err.response?.data?.message && errorMapper?.[err?.response?.data?.message]?.en){
+          toast.error(translate(errorMapper[err.response.data.message].en))
+        } else if(err?.message && errorMapper?.[err?.message]?.en) {
+          toast.error(translate(errorMapper[err.message].en))
+        }else {
+          toast.error(translate(errorMapper["Unknown error"].en))
+        }
+         
       }
     });
   }, []);
@@ -38,10 +44,13 @@ function SignIn({ intl }) {
       navigate("/profile", { replace: true });
       document.cookie = "token=" + res.data.data.token;
     } else if (err && !res) {
-      console.log(err);
-      err.response && err.response.data && err.response.data.message
-        ? toast.error(translate(errorMapper[err.response.data.message].en))
-        : toast.error(translate(errorMapper[err.message].en));
+         if(err?.response?.data?.message && errorMapper?.[err?.response?.data?.message]?.en){
+          toast.error(translate(errorMapper[err.response.data.message].en))
+        } else if(err?.message && errorMapper?.[err?.message]?.en) {
+          toast.error(translate(errorMapper[err.message].en))
+        }else {
+          toast.error(translate(errorMapper["Unknown error"].en))
+        }
     } else {
     }
   }

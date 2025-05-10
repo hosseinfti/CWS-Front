@@ -7,7 +7,6 @@ let port = process.env.REACT_APP_PORT;
 
 // export const baseURL = `${protocol}${hostName}api/`;
 export const baseURL = `${protocol}${hostName}:${port}/`;
-console.log(baseURL);
 
 export const postReq = (url, params, header, cb) => {
   axios({
