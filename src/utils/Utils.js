@@ -9,7 +9,7 @@ export const authChecker = (navigate, status = 200) => {
 };
 
 // DOC: to transfer date from Miladi to Shamsi 
-new Date().`tolocaleDateString`("fa-ir")
+new Date().toLocaleDateString("fa-ir")
 // DOC: to show Shamsi date with English characters
-new Date().tolocaleDateString("fa-IR-u-nu-latn")
+new Date().toLocaleDateString("fa-IR-u-nu-latn")
 
