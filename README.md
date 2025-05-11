@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# 🎓 CWS Event Management Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive web application developed to manage registrations, certificate distribution, and multilingual content for the **2nd Computer Science Workshop (CWS)** at **Amirkabir University of Technology**.
 
-## Available Scripts
+> 🎯 Volunteered as the sole front-end developer to deliver a complete production-ready React application in under 4 weeks.
 
-In the project directory, you can run:
+## 🚀 Live Preview
 
-### `yarn start`
+👉 [cwsaut.ir](https://hosseinfti.github.io/CWS-Front)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📌 Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🗂️ **Multi-page SPA** using React (Landing, Login, Dashboard, Certificate Download, About)
+- 🌐 **Internationalization (i18n)** for Persian & English audiences using `react-i18next`
+- 📄 **Certificate Generator** allowing participants to download personalized PDFs
+- 🔐 **Form Validation** and user flow management for event registration
+- 🧠 **Context API** for clean and scalable state management
+- 📱 Responsive layout for mobile, tablet, and desktop views
 
-### `yarn test`
+## 🛠 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React (Functional Components)**
+- **JavaScript (ES6+)**
+- **CSS3** + **Custom Styling**
+- **Context API**
+- **React Router**
+- **React i18next**
 
-### `yarn build`
+## 👥 About the Event
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The **CWS (Computer Science Workshop)** is a prestigious academic event organized by the **Scientific Association of Mathematics and Computer Engineering – Amirkabir University**. This platform supported over **2,000+ users**, including students, professors, and guests, to interact with the event digitally.
