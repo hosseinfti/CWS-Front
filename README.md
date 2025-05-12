@@ -6,7 +6,7 @@ A comprehensive web application developed to manage registrations, certificate d
 
 ## 🚀 Live Preview
 
-👉 [cwsaut.ir](https://hosseinfti.github.io/CWS-Front)
+👉 [cwsaut.ir](https://hosseinfti.github.io/CWS-Front/)
 
 ## 📌 Key Features
 
