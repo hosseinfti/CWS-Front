@@ -11,7 +11,7 @@ function NotFound() {
       <Link
         className="returnHomeLink"
         // onClick={() => context.cleanState()}
-        to="/"
+        to="/CWS-Front/"
       >
         <div className="returnHome">Return to Home page </div>
       </Link>

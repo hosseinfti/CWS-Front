@@ -37,7 +37,7 @@ function SideHeader(props) {
       ) : (
         <nav className="cws-header navbar px-auto py-1 navbar-expand-lg navbar-dark bg-transparent">
           <div className="flex-nowrap container-fluid mh-75px">
-            <Link className="navbar-brand me-lg-5" to="/">
+            <Link className="navbar-brand me-lg-5" to="/CWS-Front/">
               <img alt="logo" src={logo} className="logo w-80px eventIcon" />
             </Link>
             <div className="d-flex flex-nowrap">

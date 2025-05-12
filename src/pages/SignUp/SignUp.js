@@ -59,7 +59,7 @@ function SignUp() {
         </div>
         <div className="container d-flex flex-column align-items-center align-items-xl-start mw-700px">
           <div className="d-flex justify-content-sm-end w-100">
-            <Link to="/">
+            <Link to="/CWS-Front/">
               <img className="logo" src={logo} alt="logo" />
             </Link>
           </div>

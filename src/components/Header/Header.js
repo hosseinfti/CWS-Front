@@ -52,7 +52,7 @@ function Header(props) {
       ) : (
         <nav className="cws-header navbar px-auto py-1 navbar-expand-md navbar-dark bg-transparent">
           <div className="container-fluid mh-75px">
-            <Link className="navbar-brand me-lg-5" to="/">
+            <Link className="navbar-brand me-lg-5" to="/CWS-Front/">
               <img alt="logo" src={logo} className="logo w-80px eventIcon" />
             </Link>
             <div>
@@ -86,7 +86,7 @@ function Header(props) {
                     className={`nav-link text-nowrap ${
                       active === "home" ? "activeHeader" : ""
                     }`}
-                    to="/"
+                    to="/CWS-Front/"
                   >
                     {translate("home")}
                   </Link>
@@ -97,7 +97,7 @@ function Header(props) {
                     className={`nav-link ${
                       active === "time-table" ? "activeHeader" : ""
                     }`}
-                    to="/time-table"
+                    to="/CWS-Front/time-table"
                   >
                     {translate("time_table")}
                     {/* </div> */}
@@ -108,7 +108,7 @@ function Header(props) {
                     className={`nav-link ${
                       active === "1st" ? "activeHeader" : ""
                     }`}
-                    to="/1st"
+                    to="/CWS-Front/1st"
                   >
                     {translate("first_CWS")}
                   </Link>

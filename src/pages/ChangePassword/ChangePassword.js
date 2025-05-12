@@ -43,7 +43,7 @@ function ChangePassword() {
       </div>
       <div className="container d-flex flex-column align-items-center mw-700px h-100vh justify-content-sm-between">
         <div className="d-flex justify-content-sm-end w-100 my-5 my-sm-0">
-          <Link to="/">
+          <Link to="/CWS-Front/">
             <img className="logo" src={logo} alt="logo" />
           </Link>
         </div>

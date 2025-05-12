@@ -25,7 +25,7 @@ const SideHeaderModal = (props) => {
           className={`navbar-brand me-lg-5 ${
             active === "home" ? "active" : ""
           }`}
-          to="/"
+          to="/CWS-Front/"
         >
           <img className="w-70px" alt="logo" src={logo} />
         </Link>

@@ -42,7 +42,7 @@ const SideMenu = (props) => {
     <div className="sideMenu h-100vh d-flex flex-column justify-content-between align-items-center">
       <div className="w-265px">
         <div className="d-flex justify-content-center py-5">
-          <Link to="/">
+          <Link to="/CWS-Front/">
             <img alt="logo" src={logo} className="logo w-80px eventIcon" />
           </Link>
         </div>
@@ -155,7 +155,7 @@ const SideMenu = (props) => {
                 });
                 document.cookie =
                   "token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-                // navigate("/", { replace: true });
+                // navigate("/CWS-Front/", { replace: true });
               }}
             >
               <img src={logout} alt="Logout" />

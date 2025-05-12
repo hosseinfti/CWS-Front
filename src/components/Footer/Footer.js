@@ -12,7 +12,7 @@ const Footer = React.forwardRef((props, ref) => {
   return (
     <>
       <div className="container-fluid footer w-100 d-flex flex-column justify-content-between align-items-center my-5">
-        <Link className="footer-icon d-sm-none mb-4" to="/">
+        <Link className="footer-icon d-sm-none mb-4" to="/CWS-Front/">
           <img className="w-70px" src={logo} alt={"logo"} />
         </Link>
         <div className="d-flex justify-content-between align-items-center my-3">
@@ -34,7 +34,7 @@ const Footer = React.forwardRef((props, ref) => {
           </a>
           <Link
             className="footer-icon mx-4 mx-sm-4 d-none d-sm-inline-block"
-            to="/"
+            to="/CWS-Front/"
           >
             <img className="w-80px" src={logo} alt={"logo"} />
           </Link>
@@ -57,7 +57,7 @@ const Footer = React.forwardRef((props, ref) => {
         </div>
         <div className="d-flex justify-content-between">
           <Link
-            to="/"
+            to="/CWS-Front/"
             className="mx-3 mx-sm-4 mt-4 text-decoration-none text-light"
             onClick={() => {
               ref.homeRef.current.scrollIntoView();
@@ -69,7 +69,7 @@ const Footer = React.forwardRef((props, ref) => {
             onClick={() => {
               ref.aboutUsRef.current.scrollIntoView();
             }}
-            to="/"
+            to="/CWS-Front/"
             className="mx-3 mx-sm-4 mt-4 text-decoration-none text-light text-nowrap"
           >
             {translate("about_us")}

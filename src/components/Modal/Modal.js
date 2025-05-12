@@ -30,7 +30,7 @@ const Modal = (props) => {
   return (
     <div className="cws-modal d-flex flex-column px-auto py-1 position-fixed top-0 start-0">
       <div className="container-fluid mh-75px d-flex justify-content-between align-items-center">
-        <Link className={`navbar-brand me-lg-5 `} to="/">
+        <Link className={`navbar-brand me-lg-5 `} to="/CWS-Front/">
           <img className="w-70px" alt="logo" src={logo} />
         </Link>
         <button
@@ -49,7 +49,7 @@ const Modal = (props) => {
           <Link
             className={`nav-link ${active === "home" ? "active-header" : ""}`}
             aria-current="page"
-            to="/"
+            to="/CWS-Front/"
           >
             {translate("home")}
           </Link>
