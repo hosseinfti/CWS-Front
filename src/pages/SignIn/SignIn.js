@@ -24,7 +24,7 @@ function SignIn({ intl }) {
     getProfile(null, (res, err) => {
       if (!err && res) {
         if (res.data.status === 200) {
-          navigate("/profile", { replace: true });
+          navigate("/CWS-Front/profile", { replace: true });
         }
       } else if (err && !res) {
         if(err.response?.data?.message && errorMapper?.[err?.response?.data?.message]?.en){
@@ -41,7 +41,7 @@ function SignIn({ intl }) {
 
   function handleSignIn(res, err) {
     if (!err && res) {
-      navigate("/profile", { replace: true });
+      navigate("/CWS-Front/profile", { replace: true });
       document.cookie = "token=" + res.data.data.token;
     } else if (err && !res) {
          if(err?.response?.data?.message && errorMapper?.[err?.response?.data?.message]?.en){
@@ -157,7 +157,7 @@ function SignIn({ intl }) {
                 useCwsContext.locale === "fa-ir" ? "persian" : "english"
               }`}
             >
-              <Link to="/forget-password">
+              <Link to="/CWS-Front/forget-password">
                 <div className="text-primary">
                   {translate("forget_your_password")}
                 </div>
