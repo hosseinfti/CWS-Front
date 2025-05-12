@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CWS-Front/static/css/main.983e6d47.css",
-    "main.js": "/CWS-Front/static/js/main.1850fbb9.js",
+    "main.js": "/CWS-Front/static/js/main.c2a824bf.js",
     "static/js/787.42b19cd4.chunk.js": "/CWS-Front/static/js/787.42b19cd4.chunk.js",
     "static/media/booklet.pdf": "/CWS-Front/static/media/booklet.98199038fdc8256d4321.pdf",
     "static/media/closing.jpg": "/CWS-Front/static/media/closing.b4ebc5d1e6a6bf33561e.jpg",
@@ -50,11 +50,11 @@
     "static/media/flash.svg": "/CWS-Front/static/media/flash.513ed2acbf89102600ca679efa7f240c.svg",
     "static/media/notif.svg": "/CWS-Front/static/media/notif.771cc6b2d2cfbba207f201de18ad627d.svg",
     "main.983e6d47.css.map": "/CWS-Front/static/css/main.983e6d47.css.map",
-    "main.1850fbb9.js.map": "/CWS-Front/static/js/main.1850fbb9.js.map",
+    "main.c2a824bf.js.map": "/CWS-Front/static/js/main.c2a824bf.js.map",
     "787.42b19cd4.chunk.js.map": "/CWS-Front/static/js/787.42b19cd4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.983e6d47.css",
-    "static/js/main.1850fbb9.js"
+    "static/js/main.c2a824bf.js"
   ]
 }
