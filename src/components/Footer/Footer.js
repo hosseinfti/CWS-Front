@@ -75,7 +75,7 @@ const Footer = React.forwardRef((props, ref) => {
             {translate("about_us")}
           </Link>
           <Link
-            to="/time-table"
+            to="/CWS-Front/time-table"
             className="mx-3 mx-sm-4 mt-4 text-decoration-none text-light"
           >
             {/* <div className="disabled mx-3 mx-sm-4 mt-4 text-decoration-none text-light"> */}
