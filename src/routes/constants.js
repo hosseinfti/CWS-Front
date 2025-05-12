@@ -1,4 +1,5 @@
 export const ROUTE_ROOT = "/";
+export const ROUTE_ROOT_GH = "/CWS-Front/";
 export const ROUTE_FIRST = "1st";
 // export const ROUTE_CERTIFICATE_INQUIRY = "certificate-inquiry";
 export const ROUTE_SIGN_IN = "sign-in";

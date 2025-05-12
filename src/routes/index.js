@@ -17,6 +17,7 @@ import Feedback from "../pages/Feedback/Feedback";
 import NotFound from "../pages/NotFound/NotFound";
 import {
   ROUTE_ROOT,
+  ROUTE_ROOT_GH,
   ROUTE_FIRST,
   // ROUTE_CERTIFICATE_INQUIRY,
   ROUTE_SIGN_IN,
@@ -42,6 +43,7 @@ function router() {
         <BrowserRouter>
           <Routes>
             <Route path={ROUTE_ROOT} element={<Home />}></Route>
+            <Route path={ROUTE_ROOT_GH} element={<Home />}></Route>
             <Route path={ROUTE_FIRST} element={<First />}></Route>
             {/* <Route
               path={ROUTE_CERTIFICATE_INQUIRY}
